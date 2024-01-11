@@ -1,0 +1,43 @@
+.each-fave-brands {
+    border: 1px solid black;
+    width: 280px;
+    height: 475px;
+    border-radius: 25px;
+    
+}
+
+.each-fave-brand-img {
+    width: 280px;
+    height: 200px;
+    border-radius: 22px 22px 0px 0px;
+}
+
+.read-more {
+    text-decoration: underline;
+    color: rgb(132, 132, 132);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+
+
+.fave-brand-about {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fave-brand-description {
+    color: rgb(132, 132, 132);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.fave-brand-title {
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+}
+
+
+

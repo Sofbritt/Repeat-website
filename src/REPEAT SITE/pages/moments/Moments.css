@@ -1,0 +1,15 @@
+.moments {
+    height: 440px;
+    width: 100%;
+}
+
+
+.moments-p {
+    font-size: 19px;
+}
+
+@media(max-width:1000px) {
+    .moments {
+        height: 850px;
+    }
+}

@@ -1,0 +1,116 @@
+.gray-bg {
+    background-color: rgb(213, 213, 213);
+}
+
+.drive-order-div {
+    background-color: rgb(213, 213, 213);
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+.drive-order-title {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 15%;
+}
+
+.driveOorder-span {
+
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.driveOorder-img {
+    width: 470px;
+    height: 510px;
+}
+
+.order-span {
+    font-size: 18px;
+    width: 26%;
+}
+
+
+.featuring-moments-title {
+    color: rgb(33, 33, 33);
+    width: 50%;
+    margin-left: 5%;
+}
+
+
+.each-featuring-moment {
+    border: black 1px solid;
+    width: 280px;
+    height: 140px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+}
+
+.featuring-moment-span {
+    color: rgb(115, 115, 115);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 7;
+}
+
+.featuring-moments {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%;
+
+}
+
+.featuring-title {
+    color: rgb(33, 33, 33);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+
+}
+
+.featuring-link {
+    text-decoration: none;
+}
+
+
+@media(max-width:1000px) {
+    .drive-order-title {
+        font-size: 12px;
+        width: 90%;
+    }
+
+    .driveOorder-span {
+        display: inline-block;
+        width: 80%;
+    }
+
+    .driveOorder-img {
+        width: 420px;
+        height: 450px;
+    }
+
+    .featuring-moments-title {
+        font-size: 20px;
+       
+    }
+
+    .featuring-moments {
+        display: inline-block;
+        margin-right: 70%;
+
+    }
+
+    .each-featuring-moment {
+        border: black 1px solid;
+        width: 330px;
+        height: 140px;
+        border-radius: 20px;
+        background-color: whitesmoke;
+        margin-top: 15px;
+    }
+}

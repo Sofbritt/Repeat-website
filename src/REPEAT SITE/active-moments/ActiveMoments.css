@@ -1,0 +1,81 @@
+.active-moments-div {
+    background-color: white;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.each-active-moment {
+    border: black 1px solid;
+    width: 290px;
+    height: 310px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+.each-active-moment:hover {
+    background-color: rgb(238, 238, 238);
+}
+
+.active-title {
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(33, 33, 33);
+}
+
+.first-btn {
+    background-color: rgb(239, 237, 237);
+    width: 180px;
+    height: 27px;
+    border-radius: 15px;
+    border: 1px solid black;
+
+}
+
+
+.email-btn {
+    background-color: rgb(210, 176, 210);
+    width: 90px;
+    height: 23px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.third-btn {
+
+    background-color: rgb(160, 184, 228);
+    width: 90px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.explore-link {
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+    float: left;
+}
+
+.btns {
+    border: 2px solid palevioletred;
+    float: left;
+}
+
+@media(max-width:1000px) {
+
+    .explore-link {
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .each-active-moment {
+        margin-top: 20px;
+        width: 410px;
+        height: 270px;
+        font-size: 18px;
+      
+    }
+
+}

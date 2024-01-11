@@ -1,0 +1,126 @@
+.price-list {
+    background-color: rgb(159, 211, 211);
+    border: 1px solid black;
+    width: 350px;
+    height: 255px;
+    border-radius: 26px;
+}
+
+.price-type {
+
+    display: flex;
+    justify-content: start;
+}
+
+
+.price {
+    font-size: 27px;
+}
+
+.upper-price {
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.per-month {
+    color: rgb(177, 177, 177);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.checked-icon {
+    color: green;
+    font-size: 34px;
+
+}
+
+.bg-white {
+    background-color: white;
+    height: 168px;
+    border-radius: 0px 0px 22px 22px;
+}
+
+.pricing-props {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+.all-plans-include {
+    background-color: rgb(228, 228, 228);
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    height: 420px;
+
+}
+
+.plans-list {
+    background-color: white;
+    height: 332px;
+    border-radius: 0px 0px 15px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(75, 75, 75);
+    font-weight: 100;
+
+}
+
+.float-left {
+    margin-right: 60%;
+    padding: 10px;
+
+}
+
+.plans-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width:1000px) {
+
+
+
+    .pricing-props {
+        display: inline-block;
+
+    }
+
+
+    .price-list {
+        width: 420px;
+        height: 200px;
+        font-size: 12px;
+
+    }
+
+    .a {
+        margin-top: 20px;
+    }
+
+    .bg-white {
+        background-color: white;
+        height: 128px;
+        border-radius: 0px 0px 22px 22px;
+    }
+
+    .plans-main-div {
+        height: 800px;
+
+    }
+
+    .all-plans-include {
+        height: 600px;
+    }
+
+
+    .plans-list {
+        height: 467px;
+    }
+
+}

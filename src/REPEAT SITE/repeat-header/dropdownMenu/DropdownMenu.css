@@ -1,0 +1,45 @@
+.dropdownMenu {
+
+    background-color: white;
+    width: 350px;
+    height: 210px;
+    border: none;
+    border-radius: 17px;
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dropdown {
+    /* width: 55%;
+    margin-left: 24%;
+    */
+    margin-top: 20px;
+    position: absolute;
+    -webkit-font-smoothing: antialiased;
+}
+
+.menuText {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    text-decoration: none;
+    color:rgb(46, 46, 46);
+
+}
+
+.menuText:hover {
+    background-color: rgb(255, 255, 116);
+}
+
+
+@media(max-width:1000px) {
+
+
+    .dropdownMenu {
+        font-size: 16px;
+        background-color: rgb(238, 238, 98);
+        width: 460px;
+        cursor: auto;
+    }
+}

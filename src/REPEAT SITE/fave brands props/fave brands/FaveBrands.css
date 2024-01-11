@@ -1,0 +1,66 @@
+.faveBrands-title {
+    font-size: 42px;
+    width: 80%;
+}
+
+.fave-brands-div {
+    width: 67%;
+    margin-left: 15%;
+}
+
+.faveBrand-props {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.details-link {
+    text-decoration: none;
+    color: black;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+
+.each-logo {
+    width: 240px;
+    height: 110px;
+    border-radius: 27px;
+    margin-left: 15px;
+}
+
+
+@media(max-width:1000px) {
+    .faveBrands-title {
+        font-size: 22px;
+    }
+
+    .faveBrand-props {
+        display: inline-block;
+
+    }
+
+    .each-fave-brands {
+        margin-top: 25px;
+    }
+
+    .logos {
+        display: inline;
+        margin-top: 15px;
+        width: 100%;
+
+    }
+
+    .each-logo {
+        margin-top: 15px;
+    }
+
+
+
+}
